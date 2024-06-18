@@ -8,6 +8,8 @@ public class typecasting {
 	 
 	public static void main(String args[])  
 	{  
+		
+		
 		int x = 7;  
 		//automatically converts the integer type into long type  
 		long y = x;  
@@ -18,7 +20,7 @@ public class typecasting {
 		System.out.println("After conversion, float value "+z); 
 	double d = 166.66;  
 	//converting double data type into long data type  
-	long l = (long)d;  
+	float l = (float)d;  
 	//converting long data type into int data type  
 	int i = (int)l;  
 	System.out.println("Before conversion: "+d);  
